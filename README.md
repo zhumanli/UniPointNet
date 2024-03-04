@@ -1,20 +1,20 @@
 # UniPointNet
-## A Self-supervised Keypoint Detection Framework for Arbitrary Object Shapes
+### A Self-supervised Keypoint Detection Framework for Arbitrary Object Shapes
 
 ![Image text](https://github.com/zhumanli/UniPointNet/blob/main/imgs/UniPointNet.png)
 
 # Setup
-## Setup environment
+### Setup environment
 ```
 conda create -n unipointnet python=3.8
 conda activate unipointnet
 pip install -r requirements.txt
 ```
 
-## Download dataset
+### Download dataset
 We use object masks from the COCO dataset to train this framework. You can download our processed object masks from [COCO_masks](https://github.com/zhumanli/UniPointNet).
 
-## Download pre-trained models
+### Download pre-trained models
 The pre-trained models can be downloaded from [Google Drive](https://github.com/zhumanli/UniPointNet).
 
 # Testing
