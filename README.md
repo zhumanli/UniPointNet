@@ -19,15 +19,15 @@ The pre-trained models can be downloaded from [Google Drive](https://github.com/
 
 # Testing
 To qualitatively test the model, you can run
-'''
+```
 python test.py
-'''
+```
 
 # Training 
 To train our model on COCO_masks, run
-'''
+```
 python train.py --n_parts 16 --missing 0.9 --block 16 --thick 2.5e-3 --sklr 512
-'''
+```
 
 # Acknowledgements
 We would like to express our gratitude to the open-source project [AutoLink](https://github.com/xingzhehe/AutoLink-Self-supervised-Learning-of-Human-Skeletons-and-Object-Outlines-by-Linking-Keypoints) and its contributors since our framework is heavily built on it.
