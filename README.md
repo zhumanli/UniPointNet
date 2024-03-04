@@ -2,6 +2,7 @@
 ### A Self-supervised Keypoint Detection Framework for Arbitrary Object Shapes
 
 ![Image text](https://github.com/zhumanli/UniPointNet/blob/main/imgs/UniPointNet.png)
+We propose UniPointNet which can detect keypoints for arbitrary objects. UniPointNet is designed for object keypoint detection in HOI detection. We employ the self-supervised keypoints learning framework of AutoLink. While AutoLink was proposed to learn keypoints for single object classes, our goal is to detect keypoints across all classes present in the HOI task. To this end, we make two key changes to AutoLink. First, we feed object segmentation masks into the network instead of RGB images. This eliminates the appearance variations across different object classes, simplifying their appearance distribution. As a result, the network can focus on learning object shapes and structures. Second, instead of using an individual edge graph with shared graph weight to align all samples, we opt for a set of edge graphs with different graph weights, aligning samples within their respective clusters. This design accommodates object masks with significant variations, thus allowing the network to detect keypoints across a diverse range of object categories.
 
 # Setup
 ### Setup environment
