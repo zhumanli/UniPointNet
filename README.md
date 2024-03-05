@@ -23,7 +23,7 @@ To qualitatively test the model, you can run
 ```
 python test.py
 ```
-![Image text](https://github.com/zhumanli/UniPointNet/blob/main/imgs/QualitativeResults.png)
+<img src="https://github.com/zhumanli/UniPointNet/blob/main/imgs/QualitativeResults.png" width="500">
 
 # Training 
 To train our model on COCO_masks, run
