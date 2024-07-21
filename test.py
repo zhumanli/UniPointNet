@@ -29,6 +29,6 @@ if __name__ == '__main__':
                          precision=16, sync_batchnorm=True,
                          logger=WandbLogger(name='test_32_vis', project="UniPointNet_test"),
                          )
-    datamodule = DataModule(model.hparams.dataset, model.hparams.data_root, model.hparams.image_size, 1, model.hparams.num_workers)
+    datamodule = DataModule(args.dataset, args.data_root, model.hparams.image_size, 1, model.hparams.num_workers)
     out = trainer.test(model, datamodule=datamodule)
     # print(out[0]['keypoints'])
