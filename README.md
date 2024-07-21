@@ -16,7 +16,7 @@ pip install -r requirements.txt
 We use object masks from the COCO dataset to train this framework. You can download our processed object masks from [COCO_masks](https://github.com/zhumanli/UniPointNet).
 
 ### Download pre-trained models
-The pre-trained models can be downloaded from [Google Drive](https://github.com/zhumanli/UniPointNet).
+The pre-trained models can be downloaded from [Google Drive]([https://github.com/zhumanli/UniPointNet](https://drive.google.com/file/d/1QE_ps4q5IcyfYazvhkhCXDJm3SOGS8mu/view?usp=sharing)).
 
 # Testing
 To qualitatively test the model, you can run
