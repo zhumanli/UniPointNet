@@ -31,5 +31,18 @@ To train our model on COCO_masks, run
 python train.py --n_parts 16 --missing 0.9 --block 16 --thick 2.5e-3 --sklr 512
 ```
 
+# Citing
+If you find this work useful, please consider our paper to cite:
+```
+@article{zhu24geometric,
+ author={Zhu, Manli and Ho, Edmond S. L. and Chen, Shuang and Yang, Longzhi and Shum, Hubert P. H.},
+ journal={IEEE Transactions on Instrumentation and Measurement},
+ title={Geometric Features Enhanced Human-Object Interaction Detection},
+ year={2024},
+ doi={10.1109/TIM.2024.3427800},
+ publisher={IEEE},
+}
+```
+
 # Acknowledgements
 We would like to express our gratitude to the open-source project [AutoLink](https://github.com/xingzhehe/AutoLink-Self-supervised-Learning-of-Human-Skeletons-and-Object-Outlines-by-Linking-Keypoints) and its contributors since our framework is heavily built on it.
